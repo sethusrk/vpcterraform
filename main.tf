@@ -32,7 +32,7 @@ resource "aws_subnet" "pubsub2" {
 resource "aws_subnet" "prisub" {
   vpc_id     = aws_vpc.myvpc.id
   cidr_block = "10.0.3.0/24"
-  availability_zone = "ap-south-1c"
+  availability_zone = "ap-south-1b"
 
   tags = {
     Name = "prisub"
